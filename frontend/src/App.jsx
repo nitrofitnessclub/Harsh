@@ -51,7 +51,6 @@ const App = () => {
         <Route path="/PrivacyPolicy" element={<Privecy />} />
         <Route path="/ContactUs" element={<Contact />} />
         <Route path="/TermsOfService" element={<Terms />} />
-        
         <Route path="/profile" element={authUser ? <ProfilePage /> : <Navigate to="/login" />} />
       </Routes>
 
